@@ -1,0 +1,87 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #262626;
+    color: white;
+    box-sizing: border-box;
+    margin-top: 23.8rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.leftSide {
+    margin-left: 2rem;
+}
+
+.leftSide, .rightSide {
+    flex: 1;
+}
+
+.rightSide {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    width: 400px;
+    margin-bottom: 1rem;
+}
+
+.button {
+    padding: 10px;
+    background-color: #00000088;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: 1px solid white;
+    margin-top: 2rem;
+    width: 200px;
+}
+
+.quickLinks {
+    flex: 1;
+}
+
+.linksList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.linksList li {
+    margin-bottom: 10px;
+}
+
+.linksList a {
+    color: white;
+    text-decoration: none;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 10px;
+}
+
+.socialIcon {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+.contactInfo {
+    flex: 1;
+}
