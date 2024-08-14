@@ -2,35 +2,34 @@
     padding: 20px;
     background-color: white;
     text-align: center;
-}
-
-.mainHeading {
-    font-size: 2.5em;
-    color: black;
-    margin-bottom: 20px;
-}
-
-.mainParagraph {
-    font-size: 1.5em;
-    color: black;
-    margin-top: 2rem;
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
-.mainButton {
-    font-size: 1em;
-    padding: 10px;  
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: 2rem;
-    background-color: white;
-    border: 2px solid black;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.mainButton:hover {
-    background-color: #00000044;
-}
- 
+  
+    .mainHeading {
+      font-size: 2.5em;
+      color: black;
+      margin-bottom: 20px;
+    }
+  
+    .mainParagraph {
+      font-size: 1.5em;
+      color: black;
+      margin-top: 2rem;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+  
+    .mainButton {
+      font-size: 1em;
+      padding: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-top: 2rem;
+      background-color: white;
+      border: 2px solid black;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: #00000044;
+      }
+    }
+  }
