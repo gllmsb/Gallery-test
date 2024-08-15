@@ -1,0 +1,14 @@
+@mixin DarkButt($width: 100%) {
+    width: $width;
+    background-color: #181818;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 9px 21px 9px 21px;
+    cursor: pointer;
+    margin: 0px 0 0 0;        
+}
+@mixin AllH1($color: #ffffff){
+font-weight: 400;
+font-size: 32px;
+color: $color;
+}
