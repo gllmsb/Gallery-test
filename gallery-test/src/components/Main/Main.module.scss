@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Playwrite+AU+SA:wght@100..400&display=swap');
 .mainSection {
     padding: 20px;
     background-color: white;
     text-align: center;
+    font-family: "Gilda Display", serif;
+    font-family: 100;
   
     .mainHeading {
       font-size: 2.5em;
@@ -10,14 +13,15 @@
     }
   
     .mainParagraph {
-      font-size: 1.5em;
+      font-size: 1em;
       color: black;
       margin-top: 2rem;
       margin-bottom: 20px;
-      line-height: 1.6;
+      line-height: 17px;
     }
   
     .mainButton {
+      font-family: "Gilda Display", serif;
       font-size: 1em;
       padding: 10px;
       padding-left: 30px;
