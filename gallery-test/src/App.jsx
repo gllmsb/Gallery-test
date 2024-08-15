@@ -1,5 +1,5 @@
 import './App.css'
-import { Footer } from './components/Footer/Footer'
+import { Myfooter } from './components/Footer/Footer'
 import { Gallery } from './components/Gallery/Gallery'
 import { Header } from './components/Header/Header'
 import { Loyalty } from './components/Loyalty/Loyalty'
@@ -15,7 +15,7 @@ function App() {
     <Main/>
     <Loyalty/>
     <Gallery/>
-    <Footer/>
+    <Myfooter/>
     </>
   )
 }
